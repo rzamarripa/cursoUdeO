@@ -1,0 +1,46 @@
+".container": {	
+	backgroundColor: Alloy.Globals.colorFondo
+}
+
+"#header": {
+	top: Alloy.Globals.topWindow,
+	height: "50dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#e191b2"
+}
+
+"#todoTable": {
+	top: Alloy.Globals.todoTable,
+	bottom: '46dp'
+}
+
+"#title": {
+	left: "10dp",
+	color: "#fff",
+	font: {
+		fontSize: '24dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#footer":{
+	bottom: "0dp",
+	backgroundColor:"#81ba55",
+	height: "46dp"
+}
+
+"#addView": {
+	top: 0,
+	bottom: 0,
+	right: 0,
+	width: "50dp"
+}
+
+"#addImage": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	color: "#fff",
+	backgroundColor: "transparent",
+	image: "/ic_menu_add.png",
+	touchEnabled: false
+}

@@ -1,0 +1,25 @@
+<Alloy>
+	<Window class="container">
+		<!-- <Label id="label" onClick="doClick">Hello, World</Label> -->
+		<View id="header">
+			<Label id="title">Todo UdeO</Label>
+			<View id="addView" onClick="addToDoItem">
+				<ImageView id="addImage"/>
+			</View>
+		</View>
+		
+		<TableView id="todoTable">
+			<TableViewRow title="Uno"></TableViewRow>
+			<TableViewRow title="Dos"></TableViewRow>
+			<TableViewRow title="Tres"></TableViewRow>
+			<TableViewRow title="Cuatro"></TableViewRow>
+		</TableView>
+		
+		<View id="footer" platform="ios">
+			<Label>IOS</Label>
+		</View>
+		<View id="footer" platform="android">
+			<Label>Android</Label>
+		</View>
+	</Window>
+</Alloy>

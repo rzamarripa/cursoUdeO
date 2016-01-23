@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="addWin" title="Agregar Tarea" modal="true">
+		<TextField id="itemField" hintText="Qué necesitas hacer?" onReturn="closeKeyboard"/>
+		<Button class="button" onClick="addItem">Guadar</Button>
+		<Button class="button" onClick="closeWindow">Cancelar</Button>
+	</Window>
+</Alloy>
